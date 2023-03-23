@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+.hovMenuOption {
+    @apply hover:text-white hover:bg-arrBlue lg:py-3 lg:px-2;
+}
+
+.subMenuOption {
+    @apply inline h-6 hover:text-arrBlue font-normal;
+}
+
+.hovSubMenu {
+    @apply hover:overflow-visible hover:bg-arrWhite hover:text-arrBlue;
+}
+
+.hovSubMenuOption {
+    @apply hover:overflow-visible;
+}
+
+.footBorderSeparate {
+    @apply border-gray-400 my-1 border-b-2 w-full m-auto sm:border-b-0 sm:border-l-2 sm:w-2 sm:h-full sm:my-0 sm:mx-1 sm:inline;
+}
+
+@tailwind utilities;
